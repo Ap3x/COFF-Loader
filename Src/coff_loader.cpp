@@ -173,7 +173,7 @@ bool RunCOFF(char* FileData, DWORD* DataSize, char* EntryName, char* argumentdat
             memset(sectionMapped[i], 0, section->SizeOfRawData);
         }
 
-        if (!strcmp(section->Name, ".text")) {
+        if (!strncmp(section->Name, ".text", 5)) {
             COFF.RawTextData = sectionMapped[i];
         }
 

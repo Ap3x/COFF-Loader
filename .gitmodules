@@ -1,0 +1,3 @@
+[submodule "Beacon-Object-File-Library"]
+	path = Beacon-Object-File-Library
+	url = https://github.com/Ap3x/Beacon-Object-File-Library.git
