@@ -14,4 +14,7 @@ target_include_directories(COFFLoader PRIVATE Include)
 target_link_libraries(COFFLoader PRIVATE advapi32)
 
 # Build BOFs from submodule
-add_subdirectory(Beacon-Object-File-Library)
+option(BUILD_BOFS "Build Beacon Object Files from submodule" ON)
+if(BUILD_BOFS)
+    add_subdirectory(Beacon-Object-File-Library)
+endif()
