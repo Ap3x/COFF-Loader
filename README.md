@@ -6,6 +6,10 @@ While coding this I mainly used the following resources:
 - [Microsoft PE Format](https://learn.microsoft.com/en-us/windows/win32/debug/pe-format)
 - [Otterhacker's COFF Loader Article](https://otterhacker.github.io/Malware/CoffLoader.html)
 
+## Download
+
+A pre-built `COFFLoader.exe` is available from the latest [GitHub Actions run](https://github.com/Ap3x/COFF-Loader/actions). Go to the most recent successful run and download the `COFFLoader` artifact.
+
 ## Building
 
 ### Prerequisites
